@@ -32,6 +32,10 @@ section{
     gap: 1rem;
 }
 
+h1{
+    color: white;
+}
+
 h2{
     color: #331f19;
     font-size: 1.2;
