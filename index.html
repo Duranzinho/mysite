@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <h1> Quiz interativo para ser Garoto de Programa</h1>
+        <p><strong>teste seus conhecimentos em programação para saber se você é um bom garoto de programa</strong></p>
+    </header>
+    <main>
+        <!--Introdução-->
+        <section>
+            <h2>treino sobre o que fazer</h2>
+            <p><strong>Passo 1:</strong>Assistir vídeos aulas sobre como virar um garoto de programa de <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+            <p><strong>Passo 2:</strong>Fazer anotações das aulas</p>
+            <p><strong>Passo 3:</strong>Treinar na prática como ser um garoto de programa</p>
+            <p><strong>Passso 4:</strong>Tirar dúvidas com meu pai pois ele já é Homem de Programa</p>
+        </section>
+        
+        <!--Pergunta 1: mútipla escolha-->
+        <section>
+            <h2>Pergunta 1: Qual linguagem é usada para estruturar páginas web?</h2>
+            <form>
+                <input type="radio" value="Python" id="p1a" name="pergunta1">
+                <label for="p1a">Python</label><br>
+
+                <input type="radio" value="HTML" id="p1b" name="pergunta1">
+                <label for="p1b">HTML</label><br>
+                
+                <input type="radio" value="Javascript" id="p1c" name="pergunta1">
+                <label for="p1c">Javascript</label><br>
+                
+                <input type="radio" value="Ruby" id="p1d" name="pergunta1">
+                <label for="p1d">Ruby</label><br>
+            </form>
+        </section>
+
+        <!--Pergunta 2: texto-->
+        <section>
+            <h2>Pergunta 2: Na URL https://www.google.com o trecho "google.com" é o ____</h2>
+            <form>
+                <input type="text" id="p2" name="pergunta2" placeholder="digite sua resposta...">
+            </form>
+        </section>
+      
+        <!--Pergunta 3: senha-->
+        <section>
+            <h2>Pergunta 3: Dê um exemplo de senha forte</h2>
+            <form>
+                <input type="password" id="p3" name="pergunta3" placeholder="digite uma senha...">
+            </form>
+        </section>
+
+        <!--Pergunta 4: data-->
+        <section>
+            <h2>Pergunta 4: Em que ano HTML lançou sua primeira versão?</h2>
+            <form>
+                <input type="date" id="p4" name="pergunta4">
+            </form>
+        </section>
+        
+        <!--Pergunta 5: seleção múltipla-->
+        <section>
+            <h2>Pergunta 5: Quais dessas tecnólogias são consideradas linguagem de programação</h2>
+            <form>
+                <input type="checkbox" id="p5a" name="pergunta5" value="Javascript">
+                <label for="p5a">Javascript</label>
+
+                <input type="checkbox" id="p5b" name="pergunta5" value="HTML">
+                <label for="p5b">HTML</label>
+
+                <input type="checkbox" id="p5c" name="pergunta5" value="Java">
+                <label for="p5c">Java</label>
+
+                <input type="checkbox" id="p5d" name="pergunta5" value="CSS">
+                <label for="p5d">CSS</label>
+            </form>
+        </section>
+
+        <!--pergunata 6: upload de arquivo-->
+        <section>
+            <h2>Pergunta 6: Faça upload de um arquivo contendo código HTML</h2>
+            <form>
+                <input type="file" id="p6" name="pegunta6">
+            </form>
+        </section>
+
+        <!--Pergunta 7: menu suspenso-->
+        <section>
+            <h2>Pergunta 7: Selecione o atributo do input que define o seu tipo:</h2>
+            <form>
+                <select name="pergunta7" id="p7">
+                    <option value="id">id</option>
+                    <option value="placeholder">placeholder</option>
+                    <option value="type">type</option>
+                </select>
+            </form>
+        </section>
+
+        <!--pergunta 8: imagem-->
+        <section>
+            <h2>Pergunta 8: Qual linguagem de programação é representada pelo logotipo abaixo?</h2>
+            <figure>
+                <img src="logo java.png" alt="logotipo de uma linguagem de programação"><br>
+                <figcaption>figura 1: logotipo de uma linguagem de programação</figcaption>
+            </figure>
+            <input type="text" id="p8" name="pergunta8" placeholder="digite sua resposta...">
+        </section>
+
+        <!--Tabela de pontuação-->
+        <section>
+            <h2>Tabela de pontuação</h2>
+            <table border="1" width="40%">
+                <thead>
+                    <tr>
+                        <th>pontuação</th>
+                        <th>Avaliação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0</td>
+                        <td>burrão kkk</td>
+                    </tr>
+                    <tr>
+                        <td>1-2</td>
+                        <td>cabaço</td>
+                    </tr>
+                    <tr>
+                        <td>3-4</td>
+                        <td>menos cabaço</td>
+                    </tr>
+                    <tr>
+                        <td>5-6</td>
+                        <td>melhorou mas pode ficar melhor</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>quer ser o bixão?</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Cê é o bixão mermo em doido</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Boa sorte na próxima seu cabaço!</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!--Listas de repostas-->
+        <section>
+            <h2>Verifique suas respostas</h2>
+            <details>
+                <summary>clique aqui para ver as respostas</summary>
+                <ol>
+                    <li>HTML</li>
+                    <li>Domínio</li>
+                    <li>uma letra maiúscula e minúscula, um número, caractere especial(símbolo) e no mínimo conter 8 dígitos sua senha. Exemplo: Js34195! </li>
+                    <li>1991</li>
+                    <li>Javascript e Java</li>
+                    <li>Arquivo deve ter uma extenção .html</li>
+                    <li>type</li>
+                    <li>Java</li>
+                 </ol>
+            </details>
+        </section>
+
+        <!--Formulário de feedback-->
+        <section>
+            <h2>Nos dê seu feedback</h2>
+            <form>
+            <fieldset>
+                <legend> Informações de contato </legend>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+                <label for="comentarios">Comentários:</label><br>
+                <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="digite seu comentário aqui"></textarea><br>
+                <button onclick="alert('feedback enviado')">Envie o feedback</button>
+            </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p class="paragrafo-footer">&copy; meu primeiro teste fazendo uma página em HTML e CSS </p>
+        <p class="paragrafo-footer">Link do vídeo que assisti para fazer esse site em HTML <a class="a-footer" href="https://www.youtube.com/watch?v=Fhy-5CtVkiM&t=827s" target="_blank">clique aqui</a></p>
+        <p class="paragrafo-footer">Link do vídeo CSS <a class="a-footer" href="https://www.youtube.com/watch?v=AB35iSr1YyA&t=2351s" target="_blank">clique aqui</a></p>
+    </footer>   
+</body>
+</html>
